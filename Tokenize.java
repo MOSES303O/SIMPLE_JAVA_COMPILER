@@ -74,7 +74,7 @@ public class Tokenize {
     //creating an object of a class
     List<Token> tokens= tokenize(input);
     for(Token token:tokens){
-        System.out.print("{ type: '" + token.type + "', value: '" + token.value + "' }");
+    System.out.print("{ type:'"+ token.type + "', value:'" + token.value + "'}");
     }
-   } */ 
+   }*/
 }
