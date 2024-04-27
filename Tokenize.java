@@ -70,7 +70,7 @@ public class Tokenize {
     return tokens;
    }
   /*public static void main(String[] args){
-    String input="(add (())2 (subtract 4 2))";
+    String input="(add 2(subtract 4 2))";
     //creating an object of a class
     List<Token> tokens= tokenize(input);
     for(Token token:tokens){

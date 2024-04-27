@@ -1,8 +1,10 @@
 import java.util.List;
 
 public class AstNode {
+    public AstNode(String string, String value) {
+    }
     String type;
-    public List<AstNode> body;
+    List<AstNode> body;
     AstNode expression;
     Identifier callee;
     List<AstNode> arguments;
@@ -10,4 +12,5 @@ public class AstNode {
    /*AstNode(List<AstNode> body){
          this.body=body;
     }*/
+    public Object params;
 }
